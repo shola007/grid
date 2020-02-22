@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 2em;
+}
+.main>div{
+    background:#eee;
+    padding: 1em;
+}
+.main>div:nth-child(odd){
+    background: #ddd;
+    padding: 1em;
+}
